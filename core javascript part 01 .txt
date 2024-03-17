@@ -1,0 +1,104 @@
+Q 1.
+
+var a=95;
+
+if(a>90){
+    console.log("A Grade");
+}
+else if(a>70 && a<=90){
+    console.log("B Grade");
+}
+else if(a>50 && a<=70){
+    console.log("C Grade");
+}
+else{
+    console.log("F Grade");
+}
+
+
+Q2...
+var num1=10;
+var num2=25;
+
+for(i=num1 ; i<=num2;i++){
+    console.log(i);
+}
+
+Q3...
+
+var num=6;
+
+ num>0?console.log("positive"):num<0?console.log("negative"):console.log("Zero");
+
+
+
+Q. 4...
+
+In JavaScript, the comma operator (,) is used to evaluate multiple expressions within a single statement. It evaluates each of its operands from left to right and returns the value of the last operand. The comma operator is often used in situations where multiple expressions need to be evaluated sequentially, but only the result of the last expression matters.
+
+let x = 1, y = 2, z = 3;
+
+// Using comma operator in variable declaration
+console.log(x, y, z); // Output: 1 2 3
+
+// Using comma operator in a for loop
+for (let i = 0, j = 10; i <= j; i++, j--) {
+    console.log(i, j); // Output: 0 10, 1 9, 2 8, ..., 10 0
+}
+
+// Using comma operator in a return statement
+function add(x, y) {
+    return (x++, y++, x + y);
+}
+
+console.log(add(2, 3)); // Output: 6
+
+Q5...
+
+let username="admin";
+let password= "12345";
+
+let user="admi";
+let pass="12345";
+
+username===user?password===pass?console.log("login successfull"):console.log("Enter right password"):console.log("Invalid credentials.")
+
+Q6....
+
+let a='debit';
+
+switch(a){
+    case "credit":
+        console.log("processing fee is 2%");
+        break;
+    
+    case "debit":
+        console.log("processing fee is 1.5%");
+        break;
+
+    case "paypal":
+        console.log("processing fee is 3%");  
+        break;  
+    default:
+        console.log("Enter valid processing method");    
+
+}
+
+Q7....
+
+let curr_temp=45;
+
+curr_temp>30?console.log("Hot"): console.log("Moderate");
+
+Q 8...
+
+let n=8;
+
+let i=1;
+
+do{
+    console.log(i);
+    i++;
+}
+
+while(i<=8)
